@@ -14,7 +14,7 @@
     // 如果说本地存储内找不到token，则直接跳转到login页面
     // 注意：每个账户所对应的token是固定的，不是随机生成的
     if(!localStorage.token){
-        location.replace('./login.html');
+        location.replace(baseUrl +'login.html');
     }
 </script>
 <body>

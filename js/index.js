@@ -254,7 +254,7 @@
         // 点击X退出
         closeBtn.onclick = () => {
             localStorage.removeItem('token');
-            location.replace('./login.html');
+            location.replace(baseUrl +'login.html');
         }
     }
 

@@ -28,7 +28,7 @@ const myFetch = async ({ url, method = 'GET', params = {} }) => {
                 alert('无效的令牌');
                 localStorage.removeItem('token');
                 // 跳转页面并不会停止代码执行，只有等到所有代码执行完才跳转
-                location.replace('./login.html');
+                location.replace(baseUrl +'login.html');
                 return;
             }
             alert(result.msg);
