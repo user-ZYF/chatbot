@@ -1,1 +1,1 @@
-const baseUrl='/chatbot/';
+const baseURL='/chatbot/';

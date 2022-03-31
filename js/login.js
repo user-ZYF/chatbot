@@ -66,7 +66,7 @@
             params: { loginId, loginPwd }
         });
 
-        result && window.location.replace(baseUrl +'index.html');
+        result && window.location.replace(baseURL +'index.html');
         // 注意：跳转的相对路径是相对于html文件的位置，而不是相对于此js文件的位置
         // 参数如果为'/',表示跳转到http:127.0.0.1:5500的位置
     }

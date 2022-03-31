@@ -113,7 +113,7 @@
             method: 'POST',
             params: { loginId, loginPwd, nickname }
         });
-        result && window.location.replace(baseUrl +'index.html');
+        result && window.location.replace(baseURL +'index.html');
     }
 
 
