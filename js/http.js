@@ -1,4 +1,4 @@
-const baseUrl = 'https://study.duyiedu.com/api'
+const baseUrl = 'https://study.duyiedu.com/api';
 
 const myFetch = async ({ url, method = 'GET', params = {} }) => {
     if (method === 'GET' && Object.keys(params).length > 0) {
